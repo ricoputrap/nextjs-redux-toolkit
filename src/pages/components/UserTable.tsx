@@ -41,10 +41,10 @@ const UserTable: React.FC = () => {
             </td>
             <td className="px-4 py-3">
               <div className="flex justify-center items-center text-sm gap-2">
-                <Button variant="primary" onClick={() => console.log('Edit')}>
+                <Button variant="primary" size="small">
                   Edit
                 </Button>
-                <Button variant="danger" onClick={() => console.log('Edit')}>
+                <Button variant="danger" size="small">
                   Delete
                 </Button>
               </div>
